@@ -1,0 +1,83 @@
+.dashboard
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background:linear-gradient(#08003ab3, #08003ab3),url('../assets/hero.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color:white;
+      width: 100%;
+      min-height: 100vh;     
+}
+.main-content
+{
+      font-size: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 10rem;
+      padding-bottom: 2rem;
+      padding-inline: 20%;
+}
+.sub-content
+{
+      display: flex;
+      text-align: center;
+      padding-inline:30%;
+}
+.dashboard-button-div
+{
+      width:10rem;
+      height: 3rem;
+      padding-block: 4rem;
+}
+.dashboard-button
+{
+      width: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      gap: .5rem;
+      border:none;
+      border-radius: 10rem;
+      font-size: 14px;
+      cursor: pointer;
+}
+.dashboard-button img{
+      width: 1.3rem;
+      transition: all .5s ease;
+}
+.dashboard-button:hover img
+{
+      transform: translateX(.5rem);
+}
+
+/* media queries */
+
+@media (max-width:458px)
+{
+      .main-content
+      {
+            font-size: 25px;
+      }
+}
+@media (max-width:371px)
+{
+      .main-content
+      {
+            font-size: 20px;
+      }      
+}
+@media (max-width:325px)
+{
+      .main-content
+      {
+            font-size: 18px;
+      }
+}

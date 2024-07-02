@@ -1,0 +1,34 @@
+.copyright
+{
+      display: flex;
+      flex-direction: column;
+      border-top: 2px groove;
+      padding-block: 1rem;
+      padding-bottom: 2rem;
+}
+.content
+{
+      display: flex;
+      justify-content: space-between;
+}
+.termsPolicy
+{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 3rem;
+}
+
+/* media queries */
+
+@media (max-width:705px)
+{
+      .termsPolicy
+      {
+            display: none;
+      }  
+      .copyright
+      {
+            align-items: center;
+      }
+}

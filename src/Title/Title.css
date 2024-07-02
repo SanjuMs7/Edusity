@@ -1,0 +1,18 @@
+.title
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-block: 5rem;
+}
+.unbold-title
+{
+      text-transform: uppercase;
+      color: #212ea0;
+      font-size:15px;
+}
+.bold-title
+{
+      padding-top: .6rem;
+}

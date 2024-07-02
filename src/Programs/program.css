@@ -1,0 +1,106 @@
+.programs-container
+{
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      gap: 1rem;
+}
+.first-program
+{
+      width: 20rem;
+      position: relative;
+}
+.first-program img{
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      border: none;
+      border-radius: 1rem;
+}
+.second-program
+{
+      width: 20rem;
+      position: relative;
+}
+.second-program img
+{
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      border: none;
+      border-radius: 1rem;
+}
+.third-program
+{
+      width: 20rem;
+      position: relative;
+}
+.third-program img
+{
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      border: none;
+      border-radius: 1rem;
+}
+.programIcon-div
+{
+      width: 100%;
+      height: 99%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position:absolute;
+      top:0;
+      background-color:rgba(0, 15, 152, 0.202);
+      opacity: 0;
+      transition: all .2s ease;
+      border: none;
+      padding-top: 2rem;
+      border-radius: 1rem;
+      color: white;
+}
+.programIcon-div img{
+      width: 20%;
+}
+.programs:hover .programIcon-div
+{
+      transition: all .3s linear;
+      opacity: 1;
+      padding-top: 0;
+}
+
+/* media queries */
+@media(max-width:720px)
+{
+      .programs-container
+      {
+            display: flex;
+            flex-direction: column;
+      }
+      .programs
+      {
+            width: 30rem;
+      }
+}
+@media (max-width:481px)
+{
+      .programs
+      {
+            width: 25rem;
+      }    
+}
+@media (max-width:400px){
+      .programs
+      {
+            width: 20rem;
+      }
+}
+@media (max-width:325px)
+{
+      .programs
+      {
+            width: 18rem;
+      }      
+}

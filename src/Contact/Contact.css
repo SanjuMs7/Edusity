@@ -1,0 +1,132 @@
+.contact
+{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      gap: 2rem;
+      margin-bottom: 3rem;
+}
+.contact-left
+{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+}
+.contact-info
+{
+      opacity: .7;
+      margin-bottom: 2rem;
+      padding-inline-end: 5rem;
+}
+.contact-left h2{
+      margin-bottom: 2rem;
+}
+.contact-left h2 img{
+      width: 2rem;
+}
+.contact-left span
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+}
+.contact-left span img{
+      width: 1.5rem;
+}
+span
+{
+      opacity: .7;
+      font-size: 20px;
+      margin-bottom: 2rem;
+}
+.contact-right
+{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start
+}
+form
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: start
+}
+.contact-right input
+{
+      border: none;
+      background-color: #ebecfe;
+      height: 3rem;
+      padding-inline-start: 1rem;
+      margin-bottom: 1rem;
+}
+.contact-right label{
+      opacity: .7;
+      margin-bottom: .5rem;
+}
+.contact-right .last-input
+{
+      padding-bottom: 6rem;
+      margin-bottom: 3rem;
+}
+.contact-right button
+{
+      width: 10rem;
+      height: 3rem;
+      background-color: #212ea0;
+      border: none;
+      border-radius: 20rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 16px;
+      gap: 1rem;
+      cursor: pointer;
+      transition: all .5s ease;
+
+      margin-bottom: 1rem;
+}
+.contact-right button:hover img{
+
+      transform: translateX(.6rem);
+}
+.contact-right button img{
+      width: 10%;
+      transition: all .5s ease;
+}
+.contact-right input:focus
+{
+      outline: none;
+}
+/* media queries */
+@media(max-width:618px)
+{
+      .contact
+      {
+            display: flex;
+            flex-direction: column;
+      }
+      .contact-left,
+      .contact-right
+      {
+            width: 100%;
+      }
+}
+@media (max-width:430px) 
+{
+      .contact-left
+      {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+      }     
+      .contact-info
+      {
+            padding-inline-end: 0rem;
+      }
+}
