@@ -9,6 +9,10 @@ nav
     top: 0;
     left: 0;
     z-index: 1;
+<<<<<<< HEAD
+=======
+    transition:all .5s ease;
+>>>>>>> 5d605b0da09b9d2a557ddb4b931ba614466dce4d
 }
 .links-container
 {
