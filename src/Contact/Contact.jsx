@@ -40,7 +40,7 @@ function Contact() {
                   </p>
                   <span className="email"><img src={mailIcon} alt="" />Contact@Sanju.dev</span>
                   <span className='phone'><img src={phoneIcon} alt="" />+91 9846179663</span>
-                  <span className="location"><img src={locationIcon} alt="" />Mundur,Palghat,Kerala</span>
+                  <span className="location"><img src={locationIcon} alt="" />Kochi,Kerala</span>
             </div>
             <div className="contact-right">
                   <form onSubmit={onSubmit}>
