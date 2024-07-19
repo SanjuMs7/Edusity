@@ -38,7 +38,7 @@ function Contact() {
                   <p className="contact-info">
                         Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.
                   </p>
-                  <a href="https://sanju-flax.vercel.app/" style={{color:"black"}}>
+                  <a href="https://sanju-flax.vercel.app/" target="_blank" style={{color:"black"}}>
                     <span className="email"><img src={mailIcon} alt="" />Contact@Sanju.dev</span>
                   </a>
                   <span className='phone'><img src={phoneIcon} alt="" />+91 9846179663</span>
