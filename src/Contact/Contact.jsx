@@ -38,7 +38,9 @@ function Contact() {
                   <p className="contact-info">
                         Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.
                   </p>
-                  <span className="email"><img src={mailIcon} alt="" />Contact@Sanju.dev</span>
+                  <a href="https://sanju-flax.vercel.app/" style={{color:"black"}}>
+                    <span className="email"><img src={mailIcon} alt="" />Contact@Sanju.dev</span>
+                  </a>
                   <span className='phone'><img src={phoneIcon} alt="" />+91 9846179663</span>
                   <span className="location"><img src={locationIcon} alt="" />Kochi,Kerala</span>
             </div>
