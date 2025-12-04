@@ -4,16 +4,14 @@ import Logo from '../assets/logo.png'
 import { Link} from 'react-scroll';
 import MenuIcon from '../assets/menu-icon.png';
 function Navbar() {
- 
+      const [coloredNavbar,setColor] = useState('') ;
       const header=useRef();
       window.addEventListener('scroll',()=>{
-            if(scrollY > 50)
-            {
-                  header.current.style.backgroundColor="#212ea0";
+            if(scrollY > 50){
+                  setColor('coloredNavbar') ;
             }
-            else
-            {
-                  header.current.style.backgroundColor="";
+            else{
+                  setColor('');
             }
       });
       const [flag,setFlag]=useState(false);
@@ -23,7 +21,7 @@ function Navbar() {
       
   return (
       <div className='main-outer-div'>
-            <nav className="navbar" ref={header}>
+            <nav className={`navbar ${coloredNavbar}`} ref={header}>
                   <Link to='dashboard' smooth={true} offset={0} duration={500}>
                         <div className="img-container">
                               <img src={Logo} alt="" className='logo'/>
